@@ -1,0 +1,65 @@
+.card {
+    width: 17vw;
+        height: 43vh;
+        margin: 2px 77px;
+        border-radius: 12px;
+        background-color: #fff;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+        text-align: center;
+        position: relative;
+}
+
+.image-container {
+    height: 65%;
+    border-radius: 22px;
+    background-color: #333;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-content {
+    padding: 12px;
+    position: relative;
+    background-color: #fff;
+    border-top-left-radius: 40% 80px;
+    border-top-right-radius: 40% 80px;
+    margin-top: -30px;
+}
+
+.dish-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 12px;
+    color: #333;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    color: orange;
+}
+
+.rating i {
+    margin-right: 2px;
+    font-size: 14px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    color: #555;
+    font-size: 14px;
+}
+
+.time i {
+    margin-right: 4px;
+    font-size: 14px;
+}

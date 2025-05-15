@@ -1,0 +1,41 @@
+.Table{
+    position: relative;
+    left: 17vw;
+    top: 10vh;
+    width: 80vw;
+}
+
+.table3{
+    display: flex;
+}
+
+.card1{
+    margin: 0px 30px;
+}
+
+.menuTable{
+    margin: 10px 0px;
+}
+
+table th,td{
+    border: 2px solid black;
+    margin: 5px 10px;
+    padding: 5px 10px;
+}
+
+.add,.sub{
+    border-radius: 2px;
+}
+
+.sub{
+    margin: 0px 5px;
+}
+
+.chart{
+    margin: 0px 20px;
+}
+
+.recharts-legend-item{
+    position: relative;
+    top: 10vh;
+}

@@ -1,0 +1,59 @@
+.mainPart {
+    display: flex;
+    position: relative;
+}
+
+.rightPart {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 10vw;
+    top: 10vh;
+    width: 81vw;
+}
+
+.tables {
+    display: flex;
+    margin: 50px 50px;
+}
+
+.table {
+    width: 144px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 144px;
+    color: white;
+    margin: 20px 50px;
+    background-color: #4A4A4A;
+}
+
+.available {
+    width: 10vw;
+    margin: 0px 50px;
+    display: flex;
+    height: 15vh;
+    border-radius: 10px;
+    background-color: #4A4A4A;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.reserved {
+    width: 10vw;
+    margin: 0px 50px;
+    display: flex;
+    height: 15vh;
+    border-radius: 10px;
+    background-color: #c02300;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+.table1,.table2 div:hover{
+    cursor: pointer;
+}
+
+

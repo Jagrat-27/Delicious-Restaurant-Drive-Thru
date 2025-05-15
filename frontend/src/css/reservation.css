@@ -1,0 +1,85 @@
+.body{
+    font-family: "Quando";
+}
+.reserveName{
+    width: 579px;
+    height: 95px;
+    position: relative;
+    left: 39vw;
+    top: 10vh;
+    font-family: "Quando";
+    font-size:40px;
+}
+
+.reserveContainer{
+        position: relative;
+            top: 12vh;
+            display: flex;
+}
+
+.reserveLeft{
+        position: relative;
+        left: 26vw;
+        display: flex;
+        flex-direction: column;
+}
+
+.reserveLeft label{
+    display: block;
+    font-size: 24px;
+    margin: 10px 0px;
+}
+
+.reserveLeft input {
+    display: block;
+    border-radius: 5px;
+    width: 373px;
+    height: 50px;
+}
+
+.searchDate{
+    font-size: 32px;
+}
+
+#btn{
+    width: 218px;
+    height: 62x;
+    margin: 10px 0px;
+    background-color: #F88600;
+    color: #FFFFFF;
+}
+
+#makeReservationBtn {
+    width: 218px;
+    height: 62x;
+    margin: 10px 0px;
+    background-color: #F88600;
+    color: #FFFFFF;
+}
+
+.reserveRight {
+    position: relative;
+    left: 30vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.reserveRight label {
+    display: block;
+    font-size: 24px;
+    margin: 10px 0px;
+}
+
+.reserveRight input {
+    display: block;
+    border-radius: 5px;
+    width: 373px;
+    height: 50px;
+}
+
+.reserveRight select {
+    display: block;
+    border-radius: 5px;
+    width: 373px;
+    height: 50px;
+}

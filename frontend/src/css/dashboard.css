@@ -1,0 +1,52 @@
+.body{
+    font-family: "Poppins";
+}
+
+.dashboard{
+    width: 100%;
+    position: fixed;
+    height: 50px;
+    background-color: #4A4A4A;
+}
+.dashboardName{
+    color: #ffffff;
+    position: relative;
+    top: 9px;
+    left: 62px;
+    width: 263px;
+    height: 36px;
+    font-size: 24px;
+}
+
+.leftPart{
+    background-color: #4A4A4A;
+    position: fixed;
+    top: 6.5vh;
+    color: #ffffff;
+    width: 13vw;
+    height: 100vh;
+    opacity: 0.9;
+}
+.main{
+    font-size: 24px;
+    position: relative;
+    top: 1vh;
+    left: 1vw;
+}
+
+.others{
+    position: relative;
+    margin: 4vh 3vw;
+}
+
+.others:hover{
+    cursor: pointer;
+}
+
+.loggedIn{
+    position: relative;
+    top: 10.5vh;
+    padding: 10px 20px;
+    flex-direction: column;
+    border: 2px solid black;
+}

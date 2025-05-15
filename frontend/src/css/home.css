@@ -1,0 +1,410 @@
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #EAEAEA;
+}
+
+/* Container for Home Section */
+.home-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  height:85vh;
+}
+
+/* Left Side Text */
+.left {
+  flex: 1;
+}
+
+#indian {
+font-family: "Poppins";
+  font-size: 45px;
+  font-weight: bold;
+  color: #000000;
+}
+
+#chataka {
+  font-family:"Pataya";
+  font-size: 100px;
+  font-style: italic;
+  font-weight: bolder;
+  color: #000000;
+  letter-spacing: 2px;
+  margin-top: -20px;
+}
+
+/* Button Styling */
+#ourmenu {
+  background: #F88600;
+  color: white;
+  position: relative;
+  border: none;
+  padding: 12px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 20px;
+  border-radius: 30px;
+  transition: background 0.3s ease-in-out;
+}
+
+#ourmenu:hover {
+  background: #0D0D0D;
+}
+
+/* Right Side - Carousel */
+.right {
+  flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    border-radius: 15vh;
+}
+/* .star{
+      position: relative;
+    left: 0.7vw;
+} */
+.checked{
+  color:orange;
+}
+
+.item-container1{
+    width: 100%;
+    display: flex;
+    height: 45vh;
+}
+
+.popular{
+  font-family: "Righteous";
+  font-weight: bolder;
+  display: block;
+  margin: 10px 75px;
+  position: relative;
+  font-size: 22px;
+  width: 183px;
+  height: 27px;
+}
+
+.carousel-img {
+    width: 100%;
+    height: 60vh;
+    border-radius: 50vh;
+    object-fit: cover;
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .carousel {
+    width: 90%;
+  }
+}
+
+
+
+/* About us */
+.aboutUs{
+      display: flex;
+      position: relative;
+        margin: 2vh 2vw;
+        top: 10vh;
+        height: 100vh;
+          width: 96vw;
+}
+
+.leftAbout{
+  width: 49vw;
+  display: flex;
+}
+
+.semi{
+  background-color: #DADADA;
+  width: 400px;
+  height: 500px;
+  margin: 0px 30px;
+  border-top-left-radius: 555px;
+  border-bottom-left-radius: 555px;
+  
+}
+
+.circle img{
+  background-color: #fff;
+  width: 350px;
+  height: 370px;
+  border-radius: 460px;
+  position: relative;
+  background-image: url('/images/about.jpeg');
+  background-repeat: no-repeat;
+  top: 9vh;
+  left: -20vw;
+}
+
+
+.btn1{
+  background-color: #0D0D0D;
+  color: white;
+  height: 62px;
+  width: 225px;
+  position: relative;
+  top: 10vh;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.rightAbout{
+  width: 40vw;
+}
+
+.span{
+  font-family: "Righteous";
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+/* Menu */
+.menu{
+  width: 96vw;
+}
+
+.menu span{
+  display: flex;
+  position: relative;
+  left: 3vw;
+}
+
+.displayCard p {
+  display: flex;
+  position: relative;
+  left: 5vw;
+}
+
+.menu li{
+  list-style: none;
+  margin:2vh 2vw;
+}
+
+.menu li:hover{
+  cursor: pointer;
+}
+
+.all{
+  font-family: "Righteous";
+  font-size:larger;
+  font-weight: bold;
+}
+
+.displayCard{
+  display: flex;
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  /* Adjust as needed */
+}
+
+.displayMenu{
+  width: fit-content;
+  margin: 0px -30px;
+  
+}
+
+
+/* Book a table */
+.bookTable{
+  position: relative;
+  height: 110vh;
+  top: 25vh;
+  display: flex;
+  margin:0px 60px;
+  width: 94vw;
+}
+
+.bookRight{
+  margin:0 70px
+}
+
+
+.bookRight1 img{
+  width: 420px;
+  height: 353px;
+  background-color: #D9D9D9;
+  border-radius: 9px;
+  position: relative;
+  z-index: 1;
+  left: 5vw;
+}
+
+.bookRight2{
+  width: 460px;
+  height: 412px;
+  background-color: #DADADA;
+  border-radius: 500px;
+  position: relative;
+  top:-45vh
+}
+
+.bookContent{
+  width:45vw;
+}
+
+
+/* How to order */
+.howToOrder{
+  margin: 10px 20px;
+}
+
+.orderContainer{
+  display: flex;
+}
+.orderName{
+  width: 89px;
+  height: 24px;
+  margin: 0px 10px;
+}
+.orderContent{
+  width: 294px;
+  height: 138px;
+  margin: 0px 10px;
+}
+.orderItem{
+width: 354px;
+height: 300px;
+background-color: white;
+margin: 10px 60px;
+}
+
+.icon{
+  width: 37px;
+  height: 37px;
+  position: relative;
+}
+
+.title{
+  margin: 0px 57px;
+}
+
+
+/* Review */
+
+.review{
+  width: 99vw;
+  height: 589px;
+  background-color: #D9D9D9;
+  overflow: hidden;
+}
+
+.reviewName{
+  width: 390px;
+  height: 50px;
+  font-family: "Righteous";
+  font-size: 40px;
+  font-weight: bolder;
+  position: relative;
+  left: 38vw;
+  top:5vh;
+}
+
+.reviewDisplay{
+  display: flex;
+}
+
+.reviewBox{
+  width: 482px;
+  height: 302px;
+  background-color: #ffffff;
+  margin: 80px 130px;
+}
+
+.reviews{
+  display: flex;
+}
+
+.r{
+      margin: 80px 182px;
+        border-radius: 6px;
+        background-color: #F3F3F3;
+        position: relative;
+        width: 375px;
+        height: 155px;
+        padding: 10px 10px;
+        top: -34vh;
+}
+
+.reviewCircle{
+  display: flex;
+}
+
+.c img{
+  background-color: #D9D9D9;
+    width: 75px;
+    height: 75px;
+    position: relative;
+    top: -87vh;
+    margin: 80px 331px;
+    border-radius: 40px;
+    border: 2px solid black;
+}
+
+
+/* Footer section */
+
+.footer{
+  display: flex;
+  background-color: #1C1C1C;
+  color: white;
+  padding: 15px 25px;
+}
+
+.cname{
+  font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #fdfcfc;
+}
+.cspan{
+  font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #ff5733;
+}
+
+.footerLeft{
+  width: 47vw;
+}
+
+.footerLeft i{
+  background-color: #fff;
+  width: 20px;
+  margin: 5px 10px;
+}
+
+.footerRight{
+  margin: 0px 50px;
+}
+
+.footerImg img{
+  height: 5vh;
+  width: 5vh;
+  margin: 10px 10px;
+  border-radius: 30px;
+}
